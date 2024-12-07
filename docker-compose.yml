@@ -1,0 +1,14 @@
+
+version: '3.9'
+
+services:
+  express-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
+    environment:
+      NODE_ENV: development
+    command: npm start
+
