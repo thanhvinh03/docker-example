@@ -11,9 +11,9 @@ app.set('views', path.join(__dirname, 'project', 'views')); // Đảm bảo đư
 
 // Dữ liệu mẫu sản phẩm
 const products = [
-    { id: 1, name: 'Sản phẩm A', price: '100.000 VND', image: '/images/product1.jpg' },
-    { id: 2, name: 'Sản phẩm B', price: '200.000 VND', image: '/images/product2.jpg' },
-    { id: 3, name: 'Sản phẩm C', price: '300.000 VND', image: '/images/product3.jpg' },
+    { id: 1, name: 'Sản phẩm A', price: '100.000 VND', image: 'https://images.unsplash.com/photo-1530630458144-014709e10016?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: 2, name: 'Channel', price: '200.000 VND', image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1004&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: 3, name: 'Sản phẩm C', price: '300.000 VND', image: 'https://images.unsplash.com/photo-1588680387919-f61bfefdfd2b?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
 ];
 
 // Trang chủ: Hiển thị danh sách sản phẩm
