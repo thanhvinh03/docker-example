@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sản phẩm</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Đảm bảo đường dẫn CSS là đúng -->
+</head>
+<body>
+    <h1>Danh sách sản phẩm</h1>
+    <ul>
+        <% products.forEach(product => { %>
+            <li>
+                <img src="<%= product.image %>" alt="<%= product.name %>" width="100">
+                <h2><%= product.name %></h2>
+                <p>Giá: <%= product.price %></p>
+                <a href="/product/<%= product.id %>">Xem chi tiết</a>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>
